@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+</style>
+</head>
+<body>
+
+<h2>Productos Recomendados</h2>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img/Placa 1.JPG">
+      <img src="img/Placa 1.JPG" alt="Placa 1" width="370" height="221">
+    </a>
+    <div class="desc">$89000</div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="img/Placa 2.jpg">
+        <img src="img/Placa 2.jpg" alt="Placa 2" width="370" height="221">
+      </a>
+      <div class="desc">$89000</div>
+    </div>
+
+    <div class="responsive">
+        <div class="gallery">
+          <a target="_blank" href="img/Placa 3.jpg">
+            <img src="img/Placa 3.jpg" alt="Placa 3" width="370" height="221">
+          </a>
+          <div class="desc">$89000</div>
+        </div>
+</div>
+</body>
+</html>

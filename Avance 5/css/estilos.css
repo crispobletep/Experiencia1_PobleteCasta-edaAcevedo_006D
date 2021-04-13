@@ -1,0 +1,41 @@
+.fondo{
+    background-color: black;
+} 
+
+.color{
+    color: white;
+}
+
+h3{
+    color:black;
+    font-family:fantasy
+}
+
+p{
+    color: black;
+    font-family:fantasy
+}
+
+.carousel-control-prev-icon {
+    background-image: none;
+    color: green;
+    font-size: 20px;
+  }
+
+ h1{
+    color:#0c0c0c;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5{
+    margin: 250px;
+    color:#000000;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+iframe
+{
+    margin-right: 250px;
+}
+
+

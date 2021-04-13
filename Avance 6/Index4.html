@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.0/css/mdb.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="css/estilos.css" type="text/css" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+
+.navbar-custom {
+            background-color: black;
+        } 
+        
+        .bg-custom{
+
+            background-color: black;
+        }
+* {
+  box-sizing:  border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* The grid: Four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+  opacity: 0.8; 
+  cursor: pointer; 
+}
+
+.column img:hover {
+  opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The expanding image container */
+.container {
+  position: relative;
+  display: none;
+}
+
+/* Expanding image text */
+#imgtext {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  color: white;
+  font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+h3{
+  text-align: center;
+}
+h5{
+  text-align: center;
+}
+p{
+  text-align: center;
+}
+
+</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm  navbar-custom">
+        <!-- Brand -->
+        <a class="navbar-brand" href="Index1 .html" >
+            <img src="img/logo.png" alt="logo" style="width:150px; " >
+        </a>
+
+        <!-- Links -->
+        <ul class="navbar-nav ml-lg-auto">
+            <li class="nav-item">
+            <a class="nav-link" href="Index1 .html">Inicio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="Index4.html">Quienes Somos</a>
+            </li>
+
+            <!-- Dropdown -->
+            
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="btn-dropdown-service" data-toggle="dropdown">
+                Catalogo
+            </a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="Index7.html">Gabinetes</a>
+                <a class="dropdown-item" href="Index6.html">Procesadores</a>
+                <a class="dropdown-item" href="Index5.html">Tarjetas de video</a>
+                <a class="dropdown-item" href="Index4.html">Placas Madre</a>
+            </div>
+            </li>
+        </ul>
+        </nav>
+        <br>
+        <link rel="stylesheet" href="css/estilos.css" type="text/css">
+</body>
+<body
+    <div style="text-align:center"> 
+    <br>
+    <br>
+  <h2>Catalago de Placas Madres</h2>
+  <p>Clic en las imagenes para ampliarlas:</p>
+    </div>
+
+<!-- The four columns -->
+<div class="row">
+  <div class="column">
+    <img src="img/placa1.jpg" alt="placa1" style="width:100%" onclick="myFunction(this);">
+    <h3>B460M</h3>
+    <p>$600000</p>
+  <h4>Características principales</h4>         
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Marca</th>
+        <th>Línea</th>
+        <th>Modelo</th>
+        <th>Versión</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>MSI</td>
+        <td>PRO SERIES</td>
+        <td>B460M-A PRO</td>
+        <td>Rev 1.0</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+  <div class="column">
+    <img src="img/placa2.jpg" alt="placa2" style="width:100%"  onclick="myFunction(this);">
+    <h3>GA H110M S2H </h3>
+    <p>$690000</p>
+  <h4>Características principales</h4>         
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Marca</th>
+        <th>Línea</th>
+        <th>Modelo</th>
+        <th>Versión</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Gigabyte</td>
+        <td>Ultra Durable</td>
+        <td>A320-S2H</td>
+        <td>Rev 1.0</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="column">
+    <img src="img/placa3.webp" alt="placa3" style="width:100%"  onclick="myFunction(this);">
+    <h3>Asus Tuf X570 Plus</h3>
+    <p>$270000</p>
+  <h4>Características principales</h4>         
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Marca</th>
+        <th>Línea</th>
+        <th>Modelo</th>
+        <th>Versión</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Asus</td>
+        <td>TUF</td>
+        <td>X570 PLUS GAMING</td>
+        <td>WIFI</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  <div class="column">
+    <img src="img/placa4.jpg" alt="placa4" style="width:100%"  onclick="myFunction(this);">
+    <h3>B250M-VDH</h3>
+    <p>$890000</p>
+  <h4>Características principales</h4>         
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Marca</th>
+        <th>Línea</th>
+        <th>Modelo</th>
+        <th>Versión</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nobrand</td>
+        <td>TUF</td>
+        <td>B250M-VDH</td>
+        <td>1.0</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  
+</div>
+
+
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+    
+
+</body>
+</html>

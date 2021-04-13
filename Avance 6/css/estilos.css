@@ -1,0 +1,109 @@
+.fondo{
+    background-color: black;
+} 
+
+.color{
+    color: white;
+}
+
+h3{
+    color:black;
+    font-family:fantasy;
+}
+
+
+
+.carousel-control-prev-icon {
+    background-image: none;
+    color: green;
+    font-size: 20px;
+  }
+
+
+h5{
+    margin: 300px;
+    color:#000000;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+iframe
+{
+    margin-right: 250px;
+}
+.Mision{
+    color:#000000;
+    font-family:Copperplate, Papyrus, fantasy;
+    margin-left: 900px;
+    
+}
+.Misiont
+{
+    color:#0c0c0c;
+    
+    margin-left: 900px;
+    margin-right: 250px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Quienes
+{
+    color:#000000;
+    font-family:Copperplate, Papyrus, fantasy;
+    margin-left: 250px;
+}
+.Quienest
+{
+    margin-left: 250px;
+    margin-right: 1050px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.Vision
+{
+    color:#000000;
+    font-family:Copperplate, Papyrus, fantasy;
+    margin-left: 250px;
+}
+.Visiont
+{
+    margin-left: 250px;
+    margin-right: 1050px;
+    font-family:Arial, Helvetica, sans-serif;
+}  
+img.mision
+{
+    float:left;
+    margin-left: 250px;
+}
+img.vision
+{
+    float:right;
+    margin-right: 250px;
+    
+}    
+@media(max-width: 767px){
+    .table thead{
+        display: none;
+    }
+    .table, .table tbody, .table tr, .table td{
+        display: block;
+        width: 100%;
+    }
+    .table tr{
+        margin-bottom: 15px;
+    }
+    .table td{
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+        position: relative;
+    }
+    .table td::before{
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+
+    }
+}
